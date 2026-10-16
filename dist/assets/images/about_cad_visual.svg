@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-label="TECHNICAL DOCUMENTATION">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1c33"/><stop offset="1" stop-color="#143d60"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#54b8e8" stroke-opacity=".18" stroke-width="1"/></pattern>
+</defs>
+<rect width="960" height="680" fill="url(#bg)"/><rect width="960" height="680" fill="url(#grid)"/>
+<g fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<rect x="170" y="150" width="610" height="390"/><path d="M400 150V540M600 150V370H780M170 350H400M300 350V540M400 430H600M600 370V540"/>
+<path d="M190 170H270V250H190ZM420 170H580V250H420ZM620 170H760V250H620ZM320 370H380V430H320ZM430 450H570V520H430Z"/>
+<path d="M150 130H800M150 120V140M800 120V140M140 150V540M130 150H150M130 540H150"/></g>
+<g fill="#e0f2fe" font-family="Arial, sans-serif"><text x="48" y="54" font-size="18" letter-spacing="3" opacity=".85">ARCGLOBAL</text><text x="48" y="625" font-size="17" letter-spacing="2" opacity=".9">TECHNICAL DOCUMENTATION</text><text x="48" y="652" font-size="11" opacity=".65">CAD • BIM • CIVIL • SURVEY</text></g>
+<g stroke="#38bdf8" stroke-width="2" fill="none"><path d="M875 42h35v35M875 77l35-35"/></g></svg>
