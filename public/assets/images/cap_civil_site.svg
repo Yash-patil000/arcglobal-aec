@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-label="CIVIL SITE DEVELOPMENT">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1c33"/><stop offset="1" stop-color="#143d60"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#54b8e8" stroke-opacity=".18" stroke-width="1"/></pattern>
+</defs>
+<rect width="960" height="680" fill="url(#bg)"/><rect width="960" height="680" fill="url(#grid)"/>
+<g fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M130 180L800 140L850 520L200 570Z"/><path d="M170 220L770 185L810 480L220 530Z"/><path d="M150 360L830 330M470 160L500 550M200 250L770 450M240 500L730 210"/>
+<rect x="330" y="270" width="230" height="150"/><path d="M330 320H560M400 270V420M500 270V420"/></g>
+<g fill="#e0f2fe" font-family="Arial, sans-serif"><text x="48" y="54" font-size="18" letter-spacing="3" opacity=".85">ARCGLOBAL</text><text x="48" y="625" font-size="17" letter-spacing="2" opacity=".9">CIVIL SITE DEVELOPMENT</text><text x="48" y="652" font-size="11" opacity=".65">CAD • BIM • CIVIL • SURVEY</text></g>
+<g stroke="#38bdf8" stroke-width="2" fill="none"><path d="M875 42h35v35M875 77l35-35"/></g></svg>
