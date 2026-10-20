@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { companyConfig } from '../config/companyConfig';
-import { Menu, X, Mail, Layers, Compass } from 'lucide-react';
+import { Menu, X, Mail } from 'lucide-react';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,25 +22,19 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm py-3'
-          : 'bg-white border-b border-slate-100 py-4'
+          ? 'bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm py-2 sm:py-2.5'
+          : 'bg-white border-b border-slate-100 py-2 sm:py-3'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2.5 text-decoration-none group">
-            <div className="w-9 h-9 bg-slate-900 rounded flex items-center justify-center text-sky-400 group-hover:bg-sky-700 transition-colors">
-              <Compass className="w-5 h-5 stroke-[2.2]" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg leading-none tracking-tight text-slate-900 font-heading">
-                {companyConfig.shortName}
-              </span>
-              <span className="text-[10px] uppercase tracking-wider text-slate-500 font-medium mt-0.5">
-                Technical CAD Services
-              </span>
-            </div>
+          <a href="#hero" className="flex items-center text-decoration-none group" aria-label="ArcGlobal AEC">
+            <img
+              src="./assets/images/arcglobal-logo.jpeg"
+              alt="ArcGlobal AEC – CAD & BIM Outsourcing Solutions"
+              className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+            />
           </a>
 
           {/* Desktop Navigation */}

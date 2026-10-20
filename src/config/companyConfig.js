@@ -21,7 +21,7 @@ export const companyConfig = {
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Process", href: "#process" },
-    { name: "Industries", href: "#industries" },
+    { name: "Careers", href: "#careers" },
     { name: "Capabilities", href: "#capabilities" },
     { name: "Contact", href: "#contact" },
   ],

@@ -5,7 +5,7 @@ import TrustSection from './components/TrustSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import WorkflowSection from './components/WorkflowSection';
-import IndustriesSection from './components/IndustriesSection';
+import HiringSection from './components/HiringSection';
 import TechnologiesSection from './components/TechnologiesSection';
 import DeliverablesSection from './components/DeliverablesSection';
 import WhyChooseUsSection from './components/WhyChooseUsSection';
@@ -28,7 +28,7 @@ export default function App() {
         <AboutSection />
         <ServicesSection />
         <WorkflowSection />
-        <IndustriesSection />
+        <HiringSection />
         <TechnologiesSection />
         <DeliverablesSection />
         <WhyChooseUsSection />
